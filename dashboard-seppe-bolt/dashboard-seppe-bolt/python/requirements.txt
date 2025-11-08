@@ -1,0 +1,67 @@
+# ============================================
+# DEPENDÊNCIAS PYTHON - DASHBOARD SEPPE
+# Sistema de Importação de Planilhas Excel
+# ============================================
+
+# Manipulação de dados e Excel
+pandas==2.1.4
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Cliente Supabase
+supabase==2.0.3
+postgrest==0.13.0
+
+# Variáveis de ambiente
+python-dotenv==1.0.0
+
+# Utilitários
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Validação de dados (opcional)
+pydantic==2.5.3
+
+# Logging aprimorado (opcional)
+colorlog==6.8.0
+
+# ============================================
+# INSTRUÇÕES DE INSTALAÇÃO
+# ============================================
+
+# 1. Criar ambiente virtual:
+#    python -m venv venv
+#
+# 2. Ativar ambiente:
+#    Windows: venv\Scripts\activate
+#    Linux/Mac: source venv/bin/activate
+#
+# 3. Instalar dependências:
+#    pip install -r requirements.txt
+#
+# 4. Configurar variáveis de ambiente:
+#    Criar arquivo .env com:
+#    SUPABASE_URL=https://seu-projeto.supabase.co
+#    SUPABASE_KEY=sua-chave-aqui
+#
+# 5. Executar importador:
+#    python importador_planilhas.py
+
+# ============================================
+# VERSÕES TESTADAS
+# ============================================
+# Python: 3.10+, 3.11, 3.12
+# Sistema Operacional: Windows 10/11, Linux, macOS
+
+# ============================================
+# DEPENDÊNCIAS DE DESENVOLVIMENTO (OPCIONAL)
+# ============================================
+# Descomente se precisar de ferramentas de desenvolvimento
+
+# pytest==7.4.3              # Testes
+# pytest-cov==4.1.0          # Coverage de testes
+# black==23.12.1             # Formatação de código
+# flake8==7.0.0              # Linting
+# mypy==1.7.1                # Type checking
+# ipython==8.18.1            # Shell interativo
+# jupyter==1.0.0             # Notebooks
